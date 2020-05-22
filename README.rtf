@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 There are three different Python 3 files. Each file applies the corresponding algorithm to the data \
+before classifying the images from the data.mat image set. Data is classified into one of three classes:\
+	Class 0: Neutral face\
+	Class 1: Facial expression\
+	Class 2: Illumination variations\
+\
+Three Python 3 files:\
+\
+
+\f1\b data_o.py:
+\f0\b0 \
+	-Bayes\'92 Classifier and k-Nearest Neighbor classification using the original data set. \
+\
+
+\f1\b data_pca.py:
+\f0\b0 \
+	-Bayes\'92 Classifier and k-Nearest Neighbor classification using the PCA applied data set. \
+\
+
+\f1\b data_lda.py:
+\f0\b0 \
+	-Bayes\'92 Classifier and k-Nearest Neighbor classification using the LDA applied data set. \
+\
+
+\f1\b How to run:\
+
+\f0\b0 \
+	-Must have Python 3 and appropriate libraries installed. Imported modules are listed at\
+	the top of the file.\
+	-Dataset (data.mat file) must be in the same directory as the Python 3 file.\
+	-Training sizes, kNN k number of neighbors, and Eigen sizes can be modified near the top\
+	of the Python files under the section commented \'91constants\'92.\
+\
+	-Command line to run: python3 file_name (e.g. python3 data_o.py).\
+\
+}
